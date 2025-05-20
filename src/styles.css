@@ -13,6 +13,7 @@ body {
   width: 100vw;
   height: 100dvh;
   background-color: #e2e8f0;
+  font-family: "Roboto";
 }
 
 .sidebar {
@@ -21,4 +22,26 @@ body {
   gap: 32px;
   background-color: #1992d4;
   color: #fff;
+  padding: 20px;
+}
+
+.icon-container {
+  display: grid;
+  gap: 8px;
+}
+
+.dashboard-icon,
+.icon-container > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dashboard-icon > p,
+.icon-container > div > p {
+  font-weight: 600;
+}
+
+.dashboard-icon > p {
+  font-size: 1.4rem;
 }
