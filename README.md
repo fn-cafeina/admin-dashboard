@@ -5,7 +5,7 @@ A simple admin dashboard as a practice of flexbox with grid, this project is fro
 
 ## Demo
 <p align="center">
-  <img alt="Demo image 0" src="demo/demo-0.png">
+  <img alt="Demo image 0" src="demo/demo-1.png">
 </p>
 
 ## Resources
