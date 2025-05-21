@@ -114,3 +114,53 @@ body {
   background: #1992d4;
   border: none;
 }
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  padding: 32px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 12px;
+}
+
+.cards-container > p {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 20px;
+}
+
+.card {
+  display: grid;
+  gap: 12px;
+  border: 1px solid #000;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.card > div:first-child {
+  display: grid;
+  gap: 6px;
+}
+
+.card > div:first-child > p:first-child {
+  font-weight: 600;
+}
+.card > div:first-child > p:last-child {
+  font-size: 0.8rem;
+  color: #2e2e2e;
+}
+
+.card > div:last-child {
+  display: flex;
+  gap: 12px;
+  place-self: end;
+}
