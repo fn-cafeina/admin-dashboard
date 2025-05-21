@@ -139,11 +139,24 @@ body {
 }
 
 .card {
+  position: relative;
   display: grid;
   gap: 12px;
-  border: 1px solid #000;
-  padding: 20px;
+  border: none;
+  border-radius: 16px;
+  padding: 20px 30px;
   background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(255, 255, 68);
+  height: 100%;
+  width: 10px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
 }
 
 .card > div:first-child {
@@ -163,4 +176,68 @@ body {
   display: flex;
   gap: 12px;
   place-self: end;
+}
+
+.right-bar {
+  display: grid;
+  gap: 32px;
+}
+
+.announcements {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 12px;
+}
+
+.announcements > p {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.announcements > div {
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 16px;
+}
+
+.announcements > div > div > p:first-child {
+  font-weight: 600;
+  padding-bottom: 6px;
+}
+
+.announcements > div > div > p:last-child {
+  font-size: 0.8rem;
+  color: #000000b4;
+}
+
+.trending {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 12px;
+}
+
+.trending > div {
+  display: grid;
+  gap: 20px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 16px;
+}
+
+.trending > div > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.trending > div > div > img {
+  border-radius: 999px;
+}
+
+.trending > div > div > div > p:last-child {
+  color: #000000b4;
 }
