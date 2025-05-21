@@ -219,6 +219,11 @@ body {
   gap: 12px;
 }
 
+.trending > p { 
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
 .trending > div {
   display: grid;
   gap: 20px;
