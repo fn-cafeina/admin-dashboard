@@ -3,10 +3,10 @@
 ## Description
 A simple admin dashboard as a practice of flexbox with grid, this project is from the intermediate html/css section of [The Odin Project](https://www.theodinproject.com) course.
 
-<!-- ## Demo
+## Demo
 <p align="center">
   <img alt="Demo image 0" src="demo/demo-0.png">
-</p> -->
+</p>
 
 ## Resources
 - [minireset.css](https://github.com/jgthms/minireset.css)
